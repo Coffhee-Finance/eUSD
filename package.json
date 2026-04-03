@@ -1,0 +1,28 @@
+{
+  "name": "eusd-lz",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:source": "hardhat run scripts/deploySource.ts --network sepolia",
+    "deploy:dest": "hardhat run scripts/deployDestination.ts --network arbitrumSepolia",
+    "set:peers:sepolia": "hardhat run scripts/setPeers.ts --network sepolia",
+    "set:peers:arb": "hardhat run scripts/setPeers.ts --network arbitrumSepolia"
+  },
+  "devDependencies": {
+    "hardhat": "2.28.6",
+    "@nomicfoundation/hardhat-ethers": "3.1.0",
+    "@types/node": "22.10.2",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3"
+  },
+  "dependencies": {
+    "ethers": "6.16.0",
+    "@openzeppelin/contracts": "4.9.6",
+    "@fhenixprotocol/cofhe-contracts": "0.1.3",
+    "@layerzerolabs/oapp-evm": "0.4.1",
+    "@layerzerolabs/lz-evm-protocol-v2": "3.0.167",
+    "@layerzerolabs/lz-evm-messagelib-v2": "3.0.167",
+    "@layerzerolabs/oft-evm": "4.0.1"
+  }
+}
