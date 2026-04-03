@@ -1,4 +1,4 @@
-🪙 eUSD — Encrypted Stablecoin
+🪙 eBONDS — Encrypted Stablecoin
 
 eUSD is a privacy-preserving, cross-chain stablecoin designed to combine the reliability of fiat-backed assets with the confidentiality of encrypted on-chain balances.
 
